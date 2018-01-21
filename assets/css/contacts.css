@@ -64,21 +64,15 @@ header {
     margin: 20px auto;
 }
 
-#aboutMe {
+#contactbox {
 
     width:650px;;
-    height:420px;
+    height:560px;
     background-color: #ffffff;
     float: left;
     border: 3px solid #dddddd;
     margin-bottom:50px;
     margin-top: 15px;
-}
-
-#bio-image {
-    float: left;
-    width: 25%;
-    margin: 20px;
 }
 
 h2 {
@@ -95,14 +89,50 @@ h2 {
 
 }
 
-p {
+#contactform {
     line-height: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    margin: -10px auto;
+    margin: -20px auto;
     padding: 20px;
+    font-size: 18px;
+    
     
 }
+
+label {
+    margin: auto;
+}
+
+#inputfirstname {
+    width:100%;
+    height: 30px;
+    border: 1px solid #cccccc
+}
+
+#inputemail {
+    width:100%;
+    height: 30px;
+    border: 1px solid #cccccc
+}
+
+#inputmessage {
+    width:100%;
+    height:200px;
+    margin-bottom:30px;
+    
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
 
 h3 {
     color:#4aaaa5;
