@@ -151,7 +151,7 @@ h3 {
 footer {
     
     clear: both;
-    position: relative;
+    position: fixed;
     background-color: #666666;
     height: 90px;
     text-align: center;
