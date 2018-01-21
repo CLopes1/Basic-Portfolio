@@ -62,6 +62,10 @@ header {
     font-size: 18px;
 }
 
+.navlink:hover{
+    color:blue;
+}
+
 .navline {
     color:#dddddd
 }
