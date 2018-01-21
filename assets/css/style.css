@@ -68,6 +68,8 @@ header {
 .navlink:hover{
     color:blue;
 
+}
+
 .navline {
         color:#dddddd
 }
@@ -159,14 +161,38 @@ h3 {
     margin: -3px;
 }
 
+#gitLink:hover {
+    -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 #linkedIn {
     height:70px;
     width:70px;
 }
 
+#linkedIn:hover {
+    -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 #stackOver {
     height:70px;
     width:70px;
+}
+
+#stackOver:hover {
+    -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 footer {
