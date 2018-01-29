@@ -1,3 +1,59 @@
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Portfolio Style Sheet */
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -70,24 +126,34 @@ header {
     color:#dddddd
 }
 
+.container {
+    widows: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
 #mainSection {
-    color: #777777;
-    width: 960px;
-    margin: 20px auto;
+   padding-top:75px;
+  
+
+   
 }
 
-#portfolio {
-
-    width:650px;;
-    height:800px;
-    background-color: #ffffff;
+.portfolio {
+    background-color:#fff;
+    padding:30px;
+    margin: auto;
+    margin-top:-40px;
+    margin-bottom:50px;
+    width: 100%;
+    max-width: 650px;
     float: left;
-    border: 3px solid #dddddd;
-    margin-bottom:40px;
-    margin-top: 15px;
+    border: 1px solid #ddd;
+    
 }
 
-h2 {
+h1 {
     color:#4aaaa5;
     margin: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -101,189 +167,54 @@ h2 {
 
 }
 
-#img1{
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float:left;
-}
-
-#img1:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-
-#img2 {
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float:left;
-}
-
-#img2:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-#img3 {
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float:left;
-}
-
-#img3:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-#img4 {
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float: left;
-}
-
-#img4:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-#img5 {
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float:left;
-}
-
-#img5:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-#img6 {
-    width:45%;
-    height:200px;
-    margin-top:20px;
-    margin-left: 20px;
-    float:left;
-}
-
-#img6:hover {
-    outline: 5px solid black;
-    outline-offset: 0px;
-}
-
-
-h3 {
-    color:#4aaaa5;
-    margin: -7px 20px 14px 14px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
+h2 {
+    color: #4aaaa5;
     border-bottom: 2px solid #cccccc;
-    font-size: 130%;
-    padding: 12px;
-    padding-bottom: 20px;
-    padding-left: 1px;
-    padding-right:1px;
-    text-align:center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 
-.images {
+.work {
+    width:274px;
+    overflow: auto;
     position:relative;
+    float:left;
+    margin: 20px 0 25px;
 }
 
-.laguna {
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:165px;
-    margin-left: 20px;
-    text-align: center;
-    padding:20px;
+.work:nth-child(even)   {
+    margin-right:40px;
 }
 
-.boards{
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:165px;
-    margin-left: 329px;
-    text-align: center;
-    padding:20px;
+.work img {
+width:100%;
+border:0 none;
+opacity:.8;
 }
 
-.maui {
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:386px;
-    margin-left: 20px;
+.work h3 {
+    border-bottom:0;
+    background:#4aaaa5;
+    color:#fff;
     text-align: center;
-    padding:20px;   
+    position: absolute;
+    bottom:20px;
+    padding:15px;
+    width:100px;
+    line-height:30px;
+    margin-bottom: -20px;
+    font-weight: 300;
+    width:100%;
 }
 
-.sonoma {
-    
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:386px;
-    margin-left: 329px;
-    text-align: center;
-    padding:20px;
-}
-
-.trader {
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:605px;
-    margin-left: 20px;
-    text-align: center;
-    padding:20px; 
-
-}
-
-.onofre {
-    position:absolute;
-    background-color:#4aaaa5;
-    color:#ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:16px;
-    width:45%;
-    height:50px;
-    margin-top:605px;
-    margin-left: 329px;
-    text-align: center;
-    padding:20px;
+.image {
+   width:200px;
+   height: 200px;
+   margin-top:10px;
+   float:left;
+   margin-right:25px;
 }
 
 #sideBox {
@@ -294,7 +225,7 @@ h3 {
     float: right;
     margin-right: 0px;
     margin-left: 0px;
-    margin-top:15px;
+    margin-top:-40px;
     border: 3px solid #dddddd;
     padding: 15px;
     text-align: center;
